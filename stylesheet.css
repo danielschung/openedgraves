@@ -86,7 +86,7 @@ a:hover    {
 #header-text   {
     font-size:17px;
     padding-top:0px;
-    font-family:'Lora', serif;
+    font-family:'PT Sans', serif;
     font-weight:400;
     font-style: italic;
     color:white;
@@ -131,7 +131,7 @@ li  {
 
 .section p  {
     font-size:17px;
-    font-family:'Lora', serif;
+    font-family:'PT Sans', serif;
     max-width:700px;
     text-align:left;
     margin:0 auto;
@@ -159,7 +159,7 @@ li  {
 #passage    {
     max-width:670px;
     font-size:14px;
-    font-family:'Lora', serif;
+    font-family:'PT Sans', serif;
     font-weight:300;
     padding:20px 10px;
     margin:0px auto;
@@ -171,7 +171,7 @@ li  {
 #testimony  {
     max-width:670px;
     font-size:14px;
-    font-family:'Lora', serif;
+    font-family:'PT Sans', serif;
     font-weight:300;
     padding:20px 10px;
     margin:0px auto;
