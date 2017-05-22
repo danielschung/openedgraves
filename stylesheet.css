@@ -197,6 +197,16 @@ li  {
     
 }
 
+#download   {
+    text-align: center;
+    
+}
+
+#download:hover {
+    color:yellow;
+    
+}
+
 #note   {
     font-size:12px;
     
