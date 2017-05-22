@@ -1,0 +1,269 @@
+/*Global Rules*/
+
+*   {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+#header {
+    width:570px;
+}
+
+body    {
+    position:relative;
+    overflow-x: hidden;
+    
+}
+
+a   {
+    color:white;
+    text-decoration: none;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    
+}
+
+a:hover    {
+    color:yellow;
+    
+}
+
+.body-container  {
+    width:100%;
+    margin:0 auto;
+    height:auto;
+    position:relative;
+    
+}
+
+.section    {
+    height:auto;
+    width:100%;
+    padding:70px 0px 150px 0px;
+    margin:0 auto;
+    
+}
+
+.container  {
+    height:auto;
+    width:90%;
+    margin:0 auto;
+    padding:10px;
+    
+}
+
+/*Header Rules*/
+
+.header {
+    height:200px;
+    width:100%;
+    position:relative;
+    text-align: center;
+    background-color:rgba(28,28,28,0.0);
+    z-index:100;
+    top:-20px;
+    
+}
+
+.header-container   {
+    height:auto;
+    position:relative;
+    
+}
+
+.header h1    {
+    font-size:21px;
+    letter-spacing:2px;
+    font-family:'Josefin Sans', serif;
+    font-weight:700;
+    color:white;
+    
+}
+
+#header-text   {
+    font-size:17px;
+    padding-top:0px;
+    font-family:'Lora', serif;
+    font-weight:400;
+    font-style: italic;
+    color:white;
+    text-align:center;
+    position:relative;
+    top:-25px;
+    
+}
+
+ul  {
+    text-align:center;
+    top:10px;
+    position:relative;
+    margin:0 auto;
+    min-width:430px;
+    
+}
+
+li  {
+    display:inline-block;
+    padding:10px 15px;
+    font-size:12px;
+    letter-spacing:2px;
+    font-family:'Josefin Sans', serif;
+    font-weight:700;
+    margin:0px 10px;
+
+}
+
+/*Body Rules*/
+
+#intro-box  {
+    background-color:black;
+    background:url(pics/headerBW.jpg) fixed;
+    background-position: 0% 100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    height:auto;
+    
+}
+
+.section p  {
+    font-size:17px;
+    font-family:'Lora', serif;
+    max-width:700px;
+    text-align:left;
+    margin:0 auto;
+    color:white;
+    padding:30px 0px 0px 0px;
+    
+}
+
+#intro-text    {
+    padding-top:50px;
+    
+}
+
+.section h1 {
+    max-width:700px;
+    letter-spacing:2px;
+    font-family:'Josefin Sans', serif;
+    text-align: center;
+    margin:0 auto;
+    color:white;
+    padding:30px 0px 30px 0px;
+    
+}
+
+#passage    {
+    max-width:670px;
+    font-size:14px;
+    font-family:'Lora', serif;
+    font-weight:300;
+    padding:20px 10px;
+    margin:0px auto;
+    border-top:3px solid;
+    border-bottom:3px solid;
+    
+}
+
+#testimony  {
+    max-width:670px;
+    font-size:14px;
+    font-family:'Lora', serif;
+    font-weight:300;
+    padding:20px 10px;
+    margin:0px auto;
+
+}
+
+#about-box  {
+    background-color:black;
+    background:url(pics/canyon.jpg)fixed;
+    background-position: 0% 100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    
+}
+
+#contact-box    {
+    background:url(pics/headphones.jpg)fixed;
+    background-position:bottom;
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    
+}
+
+#note   {
+    font-size:12px;
+    
+}
+
+#joel   {
+    font-size:12px;
+    font-family:'Josefin Sans', serif;
+    text-align:center;
+    position:relative;
+    top:47px;
+}
+
+/*Footer Rules*/
+
+#footer {
+    padding:0px;
+    height:70px;
+    background-color:rgb(28,28,28);
+    
+}
+
+.footer-list    {
+    top:8px;
+    display:inline-block;
+    position:relative;
+    margin:0px 0px;
+    
+}
+
+.footer-list a  {
+    font-size:10px;
+    
+}
+
+#copyright  {
+    float:right;
+    letter-spacing:5px;
+    font-family:'Josefin Sans', serif;
+    font-size:10px;
+    position:relative;
+    top:8px;
+    padding:10px 15px;
+    margin:0px 10px;
+    
+}
+
+@media screen and (max-width:1340px)    {
+    .footer-list    {     
+        margin:10px auto 0px auto;
+        width:100%;
+        min-width:557px;
+        
+    }
+    
+    #copyright  {
+        width:50%;
+        text-align:center;
+        margin:27px auto 0px auto;
+        float:none;
+        min-width:327px;
+        letter-spacing:10px;
+        
+    }
+    
+    #footer {
+        height:140px;
+    }
+    
+}
